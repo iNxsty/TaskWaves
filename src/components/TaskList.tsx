@@ -9,6 +9,7 @@ interface Task {
   priority?: 'HIGH' | 'MEDIUM' | 'LOW'
   comments?: number
   timeSpent?: string
+  project?: string
 }
 
 interface TaskListProps {
