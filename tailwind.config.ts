@@ -36,6 +36,14 @@ export default {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
@@ -61,7 +69,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'progress-high': 'hsl(var(--progress-high))',
+				'progress-medium': 'hsl(var(--progress-medium))',
+				'progress-low': 'hsl(var(--progress-low))',
+				'task-completed': 'hsl(var(--task-completed))',
+				'task-pending': 'hsl(var(--task-pending))',
+				'task-overdue': 'hsl(var(--task-overdue))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
