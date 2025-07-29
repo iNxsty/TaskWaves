@@ -1,0 +1,7 @@
+name: Galaxy Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Mente galáctica ativada!"
