@@ -19,7 +19,7 @@ export default function CalendarPage() {
     { id: '2', title: 'Project Deadline', date: '2024-02-06', time: '18:00', type: 'deadline', project: 'Slack' },
     { id: '3', title: 'Team Standup', date: '2024-02-07', time: '09:00', type: 'meeting' },
     { id: '4', title: 'Client Presentation', date: '2024-02-08', time: '14:00', type: 'meeting', project: 'Google' },
-    { id: '5', title: 'Code Review', date: '2024-02-09', time: '16:00', type: 'reminder' },
+    { id: '5', title: 'Code Review', date: '2024-02-09', time: '10:00', type: 'reminder' },
   ])
 
   const [newEvent, setNewEvent] = useState('')
